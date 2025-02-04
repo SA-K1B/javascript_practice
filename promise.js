@@ -5,9 +5,9 @@ const myPromise = new Promise((resolve,reject)=>{
 })
 
 myPromise.then((res)=>{
-    console.log("Congrats for",msg)
+    console.log("Congrats for",msg)     // executes if successfull / fullfilled
 })
 
 myPromise.catch((err)=>{
-    console.log("Sorry for",err)
+    console.log("Sorry for",err)    // executes if error occurred
 })
